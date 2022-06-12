@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/security"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="247dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:text="we will protect you form any proplem "
+        android:textAlignment="center"
+
+        android:textColor="#08112C"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/iv"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/iv"
+        app:layout_constraintTop_toBottomOf="@+id/iv" />
+
+    <TextView
+        android:id="@+id/tvd"
+        android:layout_width="304dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="24dp"
+        android:text="we will protect you form any proplem "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot5"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot6"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <ImageView
+            android:id="@+id/dot7"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/dot"
+
+            />
+
+        <!-- <Button
+            android:id="@+id/btnright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="right"
+            />
+        <Button
+            android:id="@+id/btnleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="left"
+            />
+            -->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
